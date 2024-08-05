@@ -1,9 +1,15 @@
 # 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
 def imprimir_nombre():
     # Aquí se imprime el nombre en la pantalla
+    print("Juan Alcivar");
 
 if __name__ == "__main__":
     # Se llama a la función imprimir_nombre() para ejecutarla
+    imprimir_nombre();
+
+
+
+
 
 # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
 def suma_1_al_10():
