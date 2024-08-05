@@ -41,34 +41,40 @@
 
 
 
-# # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
-def par_o_impar(numero):
-     # Se verifica si el número es divisible por 2
-    if (numero % 2  == 0 ):
-        return "par"
-    else:       
-        return "impar";
+# # # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
+# def par_o_impar(numero):
+#      # Se verifica si el número es divisible por 2
+#     if (numero % 2  == 0 ):
+#         return "par"
+#     else:       
+#         return "impar";
 
 
-         # Si no es divisible, se devuelve "impar"6
-
-if __name__ == "__main__":
-     num1 = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
-     num2 = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
-     print(par_o_impar(num1))  # Se imprime si el número ingresado es par o impar
-     print(par_o_impar(num2))  # Se imprime si el número ingresado es par o impar
-
-
-# # 5 Crea una función que calcule el área de un círculo dado su radio.
-# import math
-
-# def area_circulo(radio):
-#     area = math.pi * radio ** 2  # Se calcula el área del círculo utilizando la fórmula matemática
-#     # Se devuelve el área calculada
+#          # Si no es divisible, se devuelve "impar"6
 
 # if __name__ == "__main__":
-#     radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
-#     # Se imprime el área calculada del círculo
+#      num1 = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
+#      num2 = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
+#      print(par_o_impar(num1))  # Se imprime si el número ingresado es par o impar
+#      print(par_o_impar(num2))  # Se imprime si el número ingresado es par o impar
+
+
+
+
+# 5 Crea una función que calcule el área de un círculo dado su radio.
+import math
+
+def area_circulo(radio):
+    area = math.pi * radio ** 2  # Se calcula el área del círculo utilizando la fórmula matemática
+    return area ;
+    # Se devuelve el área calculada
+
+if __name__ == "__main__":
+    radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
+    area = area_circulo(radio);
+    print(area);
+
+    # Se imprime el área calculada del círculo
 
 # # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
 # def suma(a, b):
