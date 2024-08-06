@@ -1,12 +1,12 @@
-# 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
-# def imprimir_nombre():
-#     # Aquí se imprime el nombre en la pantalla
-#     print("Juan Alcivar");
+#1 Escribe un programa en Python que imprima tu nombre en la pantalla.
+def imprimir_nombre():
+    # Aquí se imprime el nombre en la pantalla
+    print("Juan Alcivar");
 
 
-# if __name__ == "__main__":
-#     # Se llama a la función imprimir_nombre() para ejecutarla
-#     imprimir_nombre();
+if __name__ == "__main__":
+    # Se llama a la función imprimir_nombre() para ejecutarla
+    imprimir_nombre();
 
 
 
@@ -100,18 +100,18 @@
 #     print("El área del círculo es:", area_circulo(radio))  # Se imprime el área calculada del círculo
     
 
-# 8 Diseña un programa que convierta grados Celsius a Fahrenheit y viceversa, utilizando funciones para realizar los cálculos.
-def celsius_a_fahrenheit(celsius):
-    return (celsius * 9/5) + 32  # Se aplica la fórmula de conversión de Celsius a Fahrenheit
+# # 8 Diseña un programa que convierta grados Celsius a Fahrenheit y viceversa, utilizando funciones para realizar los cálculos.
+# def celsius_a_fahrenheit(celsius):
+#     return (celsius * 9/5) + 32  # Se aplica la fórmula de conversión de Celsius a Fahrenheit
 
-def fahrenheit_a_celsius(fahrenheit):
-    return (fahrenheit -32 ) *  5/9 
-    # Se aplica la fórmula de conversión de Fahrenheit a Celsius
+# def fahrenheit_a_celsius(fahrenheit):
+#     return (fahrenheit -32 ) *  5/9 
+#     # Se aplica la fórmula de conversión de Fahrenheit a Celsius
 
-if __name__ == "__main__":
-    celsius = float(input("Ingrese la temperatura en grados Celsius: "))  # Se solicita al usuario que ingrese la temperatura en grados Celsius
-    print("Temperatura en Fahrenheit:", celsius_a_fahrenheit(celsius))  # Se imprime la temperatura convertida a grados Fahrenheit
-    # Se solicita al usuario que ingrese la temperatura en grados Fahrenheit
-    fahrenheit = float(input("Ingrese la temperatura en grados Celsius: "))  # Se solicita al usuario que ingrese la temperatura en grados Celsius
-    print("Temperatura en Celsius:", fahrenheit_a_celsius(fahrenheit))  # Se imprime la temperatura convertida a grados Celsius
+# if __name__ == "__main__":
+#     celsius = float(input("Ingrese la temperatura en grados Celsius: "))  # Se solicita al usuario que ingrese la temperatura en grados Celsius
+#     print("Temperatura en Fahrenheit:", celsius_a_fahrenheit(celsius))  # Se imprime la temperatura convertida a grados Fahrenheit
+#     # Se solicita al usuario que ingrese la temperatura en grados Fahrenheit
+#     fahrenheit = float(input("Ingrese la temperatura en grados Celsius: "))  # Se solicita al usuario que ingrese la temperatura en grados Celsius
+#     print("Temperatura en Celsius:", fahrenheit_a_celsius(fahrenheit))  # Se imprime la temperatura convertida a grados Celsius
 
