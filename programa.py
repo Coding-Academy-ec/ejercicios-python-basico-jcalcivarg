@@ -8,10 +8,6 @@ if __name__ == "__main__":
     # Se llama a la función imprimir_nombre() para ejecutarla
     imprimir_nombre();
 
-
-
-
-
 # # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
 # def suma_1_al_10():
 #     suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
